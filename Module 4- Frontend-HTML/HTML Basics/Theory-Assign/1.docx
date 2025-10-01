@@ -1,0 +1,60 @@
+Question 1: Define HTML. What is the purpose of HTML in web development?
+ANS=
+Definition:
+HTML (HyperText Markup Language) is the standard markup language used to create the structure of web pages.
+Purpose in web development:
+Defines the content of a web page (text, images, videos, links, forms, etc.).
+Provides structure to the webpage using elements (headings, paragraphs, tables, lists).
+Works with CSS (for styling) and JavaScript (for functionality).
+Acts as the skeleton of a website that browsers can render.
+
+Question 2: Explain the basic structure of an HTML document. Identify the mandatory tags and their purposes.
+ANS=
+
+Mandatory tags & their purposes:
+<!DOCTYPE html> → Declares document type (HTML5 standard).
+<html> → Root element that wraps the entire HTML document.
+<head> → Contains metadata (title, character set, linked stylesheets, scripts).
+<title> → Sets the page title shown in the browser tab.
+<body> → Contains visible page content (headings, text, images, links, etc.).
+
+Question 3: What is the difference between block-level elements and inline elements in HTML?
+ANS=
+
+Block-level elements
+Start on a new line and occupy the full width of the container.
+Used for structuring content.
+Examples:
+<div> (division)
+<p> (paragraph)
+<h1> … <h6> (headings)
+<ul>, <ol>, <li> (lists)
+<table>
+Inline elements
+Do not start on a new line.
+Occupy only as much width as necessary.
+Usually used for formatting text inside block elements.
+Examples:
+<span>
+<a> (hyperlink)
+<strong>, <em> (bold/italic text)
+<img> (image)
+<label>
+
+Question 4: Discuss the role of semantic HTML. Why is it important for accessibility and SEO? Provide examples of semantic elements.
+ANS=
+
+Role of Semantic HTML:
+Semantic HTML uses elements that describe the meaning of the content, rather than just its appearance.
+Importance:
+Accessibility: Screen readers and assistive technologies can interpret content correctly (e.g., <nav> = navigation section).
+SEO (Search Engine Optimization): Search engines better understand the page structure, improving ranking.
+Readability: Code becomes more meaningful and easier to maintain.
+Examples of Semantic Elements:
+<header> → Defines the header of a page/section.
+<nav> → Defines navigation links.
+<main> → Defines the main content of the page.
+<article> → Defines independent content (like a blog post).
+<section> → Groups related content.
+<footer> → Defines the footer section.
+<aside> → Defines side content (like ads or sidebars).

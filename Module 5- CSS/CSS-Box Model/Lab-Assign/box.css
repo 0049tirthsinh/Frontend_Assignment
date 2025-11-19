@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #090909;
+}
+
+.profile-card {
+    height: 400px;
+    width: 300px;
+    border: 2px solid rgb(239, 238, 243);
+    border-radius: 10px;
+    background-color: rgb(189, 189, 227);
+    box-shadow: 0px 4px 10px rgba(158, 109, 191, 0.978);
+
+}
+
+.pp {
+    display: flex;
+    height: 120px;
+    width: 120px;
+    margin: 25px auto 15px;
+
+}
+
+img {
+
+    border: 2px solid rgb(158, 109, 191);
+    border-radius: 50%;
+
+
+
+}
+
+h2 {
+    text-align: center;
+    color: #242d18;
+}
+
+p {
+    text-align: center;
+    color: rgb(56, 16, 91);
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: rgb(158, 109, 191);
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin: 110px;
+    border: 2px solid rgb(158, 109, 191);
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 5px 15px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+
+    background-color: rgb(132, 85, 165);
+    /* slightly darker purple */
+    border-color: rgb(132, 85, 165);
+    color: white;
+    box-shadow: 0px 0px 10px rgba(158, 109, 191, 0.9);
+    transform: translateY(-3px);
+    transition: 0.3s ease;
+
+
+}
